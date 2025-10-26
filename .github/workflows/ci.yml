@@ -41,7 +41,7 @@ jobs:
           password: ${{secrets.DOCKERHUB_TOKEN}}
 
       - name: Build docker image
-        run: docker build -t test-project:latest
+        run: docker build -t test-project:latest .
 
       - name: Push Docker image
         run: |
