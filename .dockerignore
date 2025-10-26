@@ -1,0 +1,33 @@
+# Bytecode / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Git files
+.git
+.gitignore
+
+# Local configuration / secrets
+.env
+*.env
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test files (optional)
+tests/
